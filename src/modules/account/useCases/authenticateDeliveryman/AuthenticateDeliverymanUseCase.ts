@@ -28,7 +28,7 @@ export class AuthenticateDeliverymanUseCase {
 
     const token = sign(
       { username },
-      '389c6be0081c07880fba4862ee14e857a93e3cd3b91695bb6b9c816c2f0baab9',
+      '6e5a743837a1457a7b9342390e99e8c1d85959dd7844ccb70afa5d466f5cc56f',
       {
         subject: deliveryman.id,
         expiresIn: '1d',
